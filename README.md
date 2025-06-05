@@ -68,7 +68,7 @@ Identifying the top commodities and countries provides a clear picture of the pr
     * **Total Quantity (1,000 units):**
         * **Insight:** `Live poultry` dominates this category, indicating a very high volume of live animal imports, likely for domestic processing or breeding.
         * **Visual:**
-            ![Top 10 Quantity (1,000 units) Chart](top_10_quantity_commodities_granular_mixed_units.png)
+            ![Top 10 Quantity (1,000 units) Chart](top_10_quantity_by_uom_1000.png)
 
     * **Total Quantity (1,000 mt - metric tons):**
         * **Insight:** This category includes bulk agricultural products like `Fruits`, `Grains`, and `Vegetables`, reflecting large-scale imports of staple and raw ingredients.
@@ -91,7 +91,7 @@ Identifying the top commodities and countries provides a clear picture of the pr
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/your-username/us-food-imports-analysis.git](https://github.com/your-username/us-food-imports-analysis.git)
+    git clone [https://github.com/vonlanot/us-food-imports.git](https://github.com/vonlanot/us-food-imports.git)
     ```
 2.  **MySQL Setup:**
     * Ensure you have MySQL installed and running.
@@ -103,7 +103,7 @@ Identifying the top commodities and countries provides a clear picture of the pr
         * `Fields enclosed by:` is `"` (double quote)
         * `Line Separator` is `LF` (or `CRLF`, consistently)
 3.  **Google Colab:**
-    * Upload the exported CSV files to your Google Drive. For this project, they are expected in the path: `My Drive/Colab Notebooks/My Data/US_Food_Imports/`.
+    * Upload the exported CSV files to your Google Drive. For this project, mine was: `My Drive/Colab Notebooks/My Data/US_Food_Imports/`.
     * Open your Google Colab notebook (e.g., `US_food_imports.ipynb`) in Google Colab.
     * Run all cells sequentially. You will be prompted to mount your Google Drive to access the data.
 
